@@ -1,0 +1,43 @@
+{
+  "name": "material-prism-themes",
+  "version": "1.0.0",
+  "description": "Themes for the Prism syntax highlighting library based on the Material color scheme",
+  "author": "Kai Cataldo <kai@kaicataldo.com>",
+  "license": "MIT",
+  "repository": "kaicataldo/material-prism-themes",
+  "homepage": "https://github.com/kaicataldo/material-prism-themes#readme",
+  "bugs": "https://github.com/kaicataldo/material-prism-themes/issues",
+  "keywords": [
+    "styles",
+    "theme",
+    "themes",
+    "prism",
+    "material",
+    "syntax",
+    "highlighting"
+  ],
+  "engines": {
+    "node": ">=11.14"
+  },
+  "main": "README.md",
+  "files": [
+    "themes",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "./generateThemes.js",
+    "eslint": "eslint .",
+    "prettier": "prettier --write '**/*.js'"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-node": "^10.0.0"
+  },
+  "dependencies": {
+    "postcss": "^7.0.21",
+    "postcss-nested": "^4.2.1",
+    "postcss-variables": "^1.1.1",
+    "prettier": "1.19.1"
+  }
+}
