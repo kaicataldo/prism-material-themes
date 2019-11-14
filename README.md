@@ -16,7 +16,7 @@ npm install prism-material-themes
 
 The themes are located in the package's `themes/` directory in the form of CSS files. 
 
-### Copy and include as asset
+### Copy and include as asset manually
 
 You can copy the theme you'd like to use into your project and use it like so:
 
@@ -34,11 +34,30 @@ You can copy the theme you'd like to use into your project and use it like so:
 </html>
 ```
 
-### Used with a bundler
+### Import using a bundler like webpack 
 
 ```js
 import 'prism-material-themes/themes/material-default.css';
 ```
 
-Screenshots to come!
+## Screenshots
 
+### Material Default (`material-default.css`)
+
+<img src="screenshots/material-default.png" alt="Screenshot of Material Default theme" title="Material Default (`material-default.css`)" width="600px">
+
+### Material Darker (`material-darker.css`)
+
+<img src="screenshots/material-darker.png" alt="Screenshot of Material Darker theme" title="Material Darker (`material-darker.css`)" width="600px">
+
+### Material Lighter (`material-lighter.css`)
+
+<img src="screenshots/material-lighter.png" alt="Screenshot of Material Lighter theme" title="Material Lighter (`material-lighter.css`)" width="600px">
+
+### Material Ocean (`material-ocean.css`)
+
+<img src="screenshots/material-ocean.png" alt="Screenshot of Material Ocean theme" title="Material Ocean (`material-ocean.css`)" width="600px">
+
+### Material Palenight (`material-palenight.css`)
+
+<img src="screenshots/material-palenight.png" alt="Screenshot of Material Palenight theme" title="Material Palenight (`material-palenight.css`)" width="600px">
