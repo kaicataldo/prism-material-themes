@@ -30,9 +30,7 @@
   "devDependencies": {
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-node": "^10.0.0"
-  },
-  "dependencies": {
+    "eslint-plugin-node": "^10.0.0",
     "postcss": "^7.0.21",
     "postcss-nested": "^4.2.1",
     "postcss-variables": "^1.1.1",
