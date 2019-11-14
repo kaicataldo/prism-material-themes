@@ -6,5 +6,9 @@ module.exports = {
   rules: {
     strict: 'error',
     'node/shebang': 'off',
+    'node/no-unsupported-features/node-builtins': [
+      'error',
+      { version: '>=11.14' },
+    ],
   },
 }

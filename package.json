@@ -16,13 +16,11 @@
     "syntax",
     "highlighting"
   ],
-  "engines": {
-    "node": ">=11.14"
-  },
   "main": "README.md",
   "files": [
-    "themes",
-    "README.md"
+    "LICENSE",
+    "README.md",
+    "themes"
   ],
   "scripts": {
     "start": "./generateThemes.js",
