@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/prism-material-themes?color=%231615e6&style=flat-square)](https://www.npmjs.com/package/prism-material-themes)
 
-This repository contains the source code for themes based on the wonderful [Material theme](https://material-theme.site/) for the Prism syntax highlighting library.
+This repository contains the source code for themes for the Prism syntax highlighting library based on the wonderful [Material theme](https://material-theme.site/)!
 
 ## Installation
 
