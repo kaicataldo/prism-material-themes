@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/prism-material-themes?color=%231615e6&style=flat-square)
 
-This repository contains the source code Prism themes based on the wonderful [Material theme](https://material-theme.site/).
+This repository contains the source code for Prism themes based on the wonderful [Material theme](https://material-theme.site/).
 
 ## Installation
 
