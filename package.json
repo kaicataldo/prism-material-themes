@@ -23,7 +23,8 @@
     "themes"
   ],
   "scripts": {
-    "start": "./generateThemes.js",
+    "build": "./generateThemes.js",
+    "prepublishOnly": "npm run build",
     "eslint": "eslint .",
     "prettier": "prettier --write '**/*.js'"
   },
