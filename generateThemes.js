@@ -96,7 +96,7 @@ const themes = {
   const srcDir = path.join(__dirname, 'src')
   const themesDir = path.join(__dirname, 'themes')
   const template = await fsPromises.readFile(
-    path.join(srcDir, 'material-prism-theme.css'),
+    path.join(srcDir, 'prism-material-theme-template.css'),
     'utf8',
   )
 

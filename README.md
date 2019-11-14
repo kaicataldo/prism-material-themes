@@ -1,1 +1,1 @@
-# material-prism-themes
+# prism-material-themes
