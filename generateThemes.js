@@ -106,7 +106,7 @@ const themes = {
     Object.entries(themes).map(async ([style, themeData]) => {
       const { css } = await postcss([
         require('postcss-nested'),
-        require('postcss-variables')({ globals: themeData }),
+        require('postcss-css-variables')({ variables: themeData }),
       ]).process(template, { from: undefined })
       const formattedCss = prettier.format(css, { parser: 'css' })
       fsPromises.writeFile(
